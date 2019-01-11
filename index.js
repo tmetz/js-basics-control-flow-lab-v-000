@@ -19,3 +19,13 @@ function ternaryCheckCity(city) {
     return "No go.";
   }
 }
+
+function switchOnCharmFromTip(tip) {
+  if (tip > 10) {
+    return "Thank you so much.";
+  }
+  else {
+    return "Thank you.";
+  }
+  return "Bye.";
+}
